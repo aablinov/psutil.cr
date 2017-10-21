@@ -1,0 +1,10 @@
+---
+name: psutil
+version: 0.1.0
+
+authors:
+  - Andrey Blinov <kodnaplakal@gmail.com>
+
+crystal: 0.23.1
+
+license: MIT
