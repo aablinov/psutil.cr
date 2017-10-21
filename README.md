@@ -1,4 +1,4 @@
-# psutil.cr [![Build Status](https://travis-ci.org/kodnaplakal/psutils.cr.svg?branch=master)](https://travis-ci.org/kodnaplakal/psutil.cr)
+# psutil.cr [![Build Status](https://api.travis-ci.org/kodnaplakal/psutil.cr.svg?branch=master)](https://travis-ci.org/kodnaplakal/psutil.cr)
 
 This is a port of gopsutil [Gopsutil](https://github.com/shirou/gopsutil) a library for accessing information from the system for statistical purposes. It could be used for software that monitors the system for alerting or graphing purposes.
 
