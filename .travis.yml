@@ -1,6 +1,5 @@
 language: crystal
 crystal:
   - latest
-  - nightly
 os:
   - linux
