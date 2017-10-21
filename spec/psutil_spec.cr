@@ -59,7 +59,6 @@ describe Psutil, "Psutil all specs" do
       stat.should_not be_nil
       if stat
         stat.name.should_not eq ""
-        stat.serial_number.should_not eq ""
       end
     end
   end
