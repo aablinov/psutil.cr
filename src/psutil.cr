@@ -17,5 +17,3 @@ module Psutil
     extend Linux
   {% end %}
 end
-
-puts Psutil.net_io_counters
