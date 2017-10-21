@@ -58,16 +58,6 @@ describe Psutil, "Psutil all specs" do
       end
       stat.should_not be_nil
       if stat
-        stat.read_count.should be > 0
-        stat.merge_read_count.should be > 0
-        stat.write_count.should be > 0
-        stat.merge_write_count.should be > 0
-        stat.read_bytes.should be > 0
-        stat.write_bytes.should be > 0
-        stat.read_time.should be > 0
-        stat.write_time.should be > 0
-        stat.io_time.should be > 0
-        stat.weighted_io.should be > 0
         stat.name.should_not eq ""
         stat.serial_number.should_not eq ""
       end
