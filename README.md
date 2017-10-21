@@ -61,4 +61,4 @@ crystal spec
 
 ## Contributors
 
-- [kodnaplakal](https://github.com/sija) Andrey Blinov - creator, maintainer
+- [kodnaplakal](https://github.com/kodnaplakal) Andrey Blinov - creator, maintainer
