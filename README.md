@@ -26,7 +26,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  raven:
+  psutil:
     github: kodnaplakal/psutil.cr
 ```
 
