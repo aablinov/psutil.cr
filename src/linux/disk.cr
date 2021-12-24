@@ -76,7 +76,7 @@ module Psutil
         next if line.starts_with?("nodev")
         res << line.strip
       end
-      res + ["cifs", "nfs", "nfs4", "fuse"]
+      res
     end
   end
 
