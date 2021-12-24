@@ -19,7 +19,7 @@ module Psutil
       stat.arch = String.new(utsname.machine.to_unsafe)
       stat.host_id = get_host_id
       stat.boot_time = get_boot_time
-      stat.uptime = (Time.now.epoch - stat.boot_time).to_u64
+      stat.uptime = (Time.local.to_unix - stat.boot_time).to_u64
       stat.procs = Dir.entries("/proc").size.to_u64
       lsb = get_lsb
       stat.platform = lsb.id
